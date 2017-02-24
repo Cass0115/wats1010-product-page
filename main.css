@@ -6,3 +6,10 @@ body {
     padding-bottom: 20px;
     color: green;
 }
+iframe{
+  width:560px;
+  height:315px;
+}
+.video{
+  text-align: center;
+}
