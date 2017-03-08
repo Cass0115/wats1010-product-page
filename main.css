@@ -39,16 +39,27 @@ div .navbar{
 .navbar-default .navbar-nav > li > a{
   color:#fff;
 }
-
+button.btn.btn-default{
+  margin-top:7px;
+}
+.btn-default{
+  color: #BC134E;
+}
+.navbar-default .navbar-toggle .icon-bar{
+  border-color:#fff;
+  background-color: #fff;
+}
+button.navbar-toddlge-collasped{
+  border-color:#fff;
+}
 
 /** Video **/
 iframe{
   border: 0;
-  width:100%;
-  max-width: 700px;
   margin:0 auto;
   display: block;
 }
+
 /** About us **/
 #about{
   background-color: #407eda;
