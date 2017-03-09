@@ -45,13 +45,14 @@
         <h1 class="text-uppercase">Watch our Video</h1>
           <p class="text-center lead">We have the biggest collection of API’s on this great, green planet.
             You will see that you need us to have a great web presence on the Internet.</p>
-            <iframe width="754" height="425" src="https://www.youtube.com/embed/L48g1ZWLMdo" frameborder="0" allowfullscreen></iframe>
+            <div class="iframe-wrap"><iframe width="754" height="425" src="https://www.youtube.com/embed/L48g1ZWLMdo" frameborder="0" allowfullscreen></iframe>
+            </div>
       </div> <!-- Container -->
 
 <!-- Features -->
-      <div class="features" id="features">
-        <h1 class="text-uppercase">The greatest features in the world</h1>
-          <div class="container">
+      <div class="features" id="features" data-speed="8" data-type="background">
+        <div class="container wrapper">
+          <h1 class="text-uppercase">The greatest features in the world</h1>
             <div class="row">
               <div class="col-xs-6">
               <ul>
@@ -76,32 +77,33 @@
           <h1 class="text-uppercase">Our three happy customers so far</h1>
            <div class="container">
              <div class="row">
+
                <div class="col-xs-12 col-sm-4 col-md-4">
-                <img src="images/taylorswift.png" class="img-responsive" alt="Taylor Swift">
-                 <blockquote id="taylor">
-                  <p>I wouldn’t have sold so many albums without the API Superstore!</p>
-                    <footer>Taylor Swift</footer>
-                 </blockquote>
+                <div class="t-wrap">
+                  <img src="images/taylorswift.png" class="img-responsive" alt="Taylor Swift">
+                    <p>I wouldn’t have sold so many albums </br> without the API Superstore!</p>
+                      <span class="reviews">-Taylor Swift</span>
+                 </div>
                </div>
 
           <div class="col-xs-12 col-sm-4 col-md-4">
-            <img src="images/billnye.png" class="img-responsive" alt="Bill Nye">
-              <blockquote id="bill">
-                <p>The API Superstore has more API’s than the Milky Way has stars!</p>
-                <footer>Bill Nye</footer>
-              </blockquote>
+            <div class="t-wrap">
+              <img src="images/billnye.png" class="img-responsive" alt="Bill Nye">
+                <p>The API Superstore has more API’s</br> than the Milky Way has stars!</p>
+                <span class="reviews">-Bill Nye</span>
+              </div>
           </div>
 
           <div class="col-xs-12 col-sm-4 col-md-4">
-            <img src="images/arnold.png" class="img-responsive" alt="Arnold Schwarzenegger">
-              <blockquote id="arnold">
-                <p>I'll be back... To the API Superstore!</p>
-                  <footer>Arnold Schwarzenegger</footer>
-              </blockquote>
-            </div>
-          </div>
-        </div>
-      </div>
+            <div class="t-wrap">
+              <img src="images/arnold.png" class="img-responsive" alt="Arnold Schwarzenegger">
+                <p>I'll be back...</br> To the API Superstore!</p>
+                  <span class="reviews">-Arnold Schwarzenegger</span>
+              </div> <!-- t-wrap-->
+            </div><!-- col-xs-12 -->
+          </div> <!-- row -->
+        </div> <!-- containers-->
+      </div><!-- customers -->
 
 <!--Share Section -->
         <div class="share">
@@ -115,18 +117,19 @@
           </div>
         </div>
 <!-- Call to Action -->
-      <div>
-        <p>Sign up</p>
+      <div id="ft-signup">
+        <button type="button" class="btn btn-default">Sign Up</button>
       </div>
 <!-- Footer -->
         <footer>
-          <div class="content container-fluid">
+          <div class="content container">
             <div class="row">
               <div class="col-sm-6">
-                <nav class="navbar navbar-defualt" role="navigation">
                   <p>Call us at <span class="phone">800-555-7541</span></p>
                   <p>Email us at <span class="email">fakeemail@gmail.com</span></p>
-                </nav>
+              </div>
+              <div class="col-sm-6">
+                <p>Visit us at <span class="address">901 12th Ave </br> Seattle, WA 98122</span></p>
               </div>
             </div>
           </div> <!--container-->
@@ -137,9 +140,6 @@
 
         <!-- TODO: Create an area to show company contact info (phone,
              location, etc.) -->
-
-        <!-- TODO: Create an area that allows users to Share links to the
-             page. -->
 
     </body>
 </html>

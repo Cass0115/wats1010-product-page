@@ -53,13 +53,6 @@ button.navbar-toddlge-collasped{
   border-color:#fff;
 }
 
-/** Video **/
-iframe{
-  border: 0;
-  margin:0 auto;
-  display: block;
-}
-
 /** About us **/
 #about{
   background-color: #407eda;
@@ -68,15 +61,72 @@ iframe{
 }
 #about h1{
   color:#fff;
+  padding-top:40px;
 }
 #about p{
   color:#fff;
 }
+.iframe-wrap{
+  border: 0;
+  margin:0 auto;
+  display: block;
+  text-align: center;
+}
+
+
+/** Features **/
+#features{
+  background-image: url(images/Globe.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 400px;
+  padding:80px 0;
+}
+#features h1{
+  color:#fff;
+  margin-top:0;
+}
+#features li{
+  color:#fff;
+  font-size: 18px;
+  font-weight:700;
+  line-height:32px;
+  letter-spacing: 1px;
+}
+/**
+#features .wrapper{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+**/
 
 /** Customers **/
 .customers h1{
   color: #407EDA;
+  padding-top: 40px;
 }
+.t-wrap{
+  text-align:center;
+  padding:25px 0;
+}
+.img-responsive{
+  margin:0 auto;
+}
+.t-wrap p{
+  font-size:18px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 24px;
+  padding-top:20px;
+}
+.reviews{
+  font-size:18px;
+  font-weight: 600;
+  line-height:24px;
+  color: #9B9B9B;
+}
+/** Social **/
 .share{
   width:100%;
   height:425px;
@@ -90,19 +140,34 @@ iframe{
   color:#fff;
   padding: 24px 0 40px 0;
 }
+.social a{
+  margin:0 10px;
+}
+
+/** Call to Action **/
+#ft-signup{
+  width:100%;
+  height:82px;
+  background: linear-gradient(180deg, #E02F6D 0%, #BC134E 100%);
+  text-align: center;
+}
+#ft-signup  button.btn.btn-default{
+  margin-top:25px;
+}
 
 /** Footer **/
-/**
 footer{
   background-color: black;
+  padding:30px 0;
+
 }
 footer p{
   color:white;
+  font-size:16px;
+  padding-left: 30px;
 }
-footer .navbar{
-  background-color: black;
-}
-**/
+
+
 
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. Hello! */
