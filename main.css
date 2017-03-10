@@ -8,13 +8,6 @@ h1{
   line-height: 89px;
   text-align: center;
 }
-#about p{
-  width:100%;
-  max-width: 700px;
-  margin: 0 auto;
-  display:block;
-  padding-bottom: 40px;
-}
 
 /** Header Navigation **/
 nav{
@@ -65,13 +58,24 @@ button.navbar-toddlge-collasped{
 }
 #about p{
   color:#fff;
+  width:100%;
+  max-width: 700px;
+  margin: 0 auto;
+  display:block;
+  padding-bottom: 40px;
 }
+
 .iframe-wrap{
   border: 0;
   margin:0 auto;
   display: block;
   text-align: center;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
 }
+
 
 
 /** Features **/
