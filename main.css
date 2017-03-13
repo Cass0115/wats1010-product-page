@@ -28,12 +28,15 @@ div .navbar{
 }
 .navbar-default .navbar-brand{
   color:#fff;
+  font-family: Oswald, sans-serif;
+  font-size: 30px;
 }
 .navbar-default .navbar-nav > li > a{
   color:#fff;
 }
 button.btn.btn-default{
   margin-top:7px;
+  border:none;
 }
 .btn-default{
   color: #BC134E;
@@ -105,7 +108,7 @@ button.navbar-toddlge-collasped{
 }
 .t-wrap{
   text-align:center;
-  padding:25px 0;
+  padding:25px 0 80px 0;
 }
 .img-responsive{
   margin:0 auto;
@@ -121,7 +124,6 @@ button.navbar-toddlge-collasped{
   font-size:18px;
   font-weight: 600;
   line-height:24px;
-  color: #9B9B9B;
 }
 
 /** Social **/
@@ -145,18 +147,19 @@ button.navbar-toddlge-collasped{
 /** Call to Action **/
 #ft-signup{
   width:100%;
-  height:82px;
+  height:160px;
   background: linear-gradient(180deg, #E02F6D 0%, #BC134E 100%);
   text-align: center;
 }
 #ft-signup  button.btn.btn-default{
-  margin-top:25px;
+  margin-top:60px;
+  border: none;
 }
 
 /** Footer **/
 footer{
   background-color: black;
-  padding:30px 0;
+  padding:60px 0;
 
 }
 footer p{
@@ -164,6 +167,9 @@ footer p{
   font-size:16px;
   padding-left: 30px;
   line-height:24px;
+}
+b{
+  color:#7a7a7a;
 }
 
 /** Responsive **/
